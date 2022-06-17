@@ -1,6 +1,6 @@
 import React from 'react';
 import { LayoutChangeEvent } from 'react-native';
-export interface ContainerProps {
+export interface CProps {
     loading?: boolean;
     processing?: boolean;
     indicatorSize?: number;
@@ -13,5 +13,5 @@ export interface ContainerProps {
     loadingIndicator?: React.ReactNode;
     onLayout?: (event: LayoutChangeEvent) => void;
 }
-declare const Container: ({ loading, onLayout, footer, staticFooter, staticHeader, children, processing, header, indicatorColor, indicatorSize, loadingIndicator }: ContainerProps) => JSX.Element;
-export default Container;
+declare const C: ({ loading, onLayout, footer, staticFooter, staticHeader, children, processing, header, indicatorColor, indicatorSize, loadingIndicator }: CProps) => JSX.Element;
+export default C;

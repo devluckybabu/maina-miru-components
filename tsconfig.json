@@ -1,21 +1,35 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "declaration": true,
-    "declarationMap": true,
-    "isolatedModules": true,
-    "outDir": "./types",
-    "checkJs": true,
+    "target": "es6",
+    "module": "commonjs",
     "jsx": "react-native",
     "lib": [
-      "es2017"
+      "dom",
+      "es2015",
+      "es2016",
+      "ES2017",
+      "ES2018"
     ],
-    "moduleResolution": "node",
-    "noEmit": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./types",
+    "allowJs": true,
+    "checkJs": true,
+    "removeComments": true,
     "strict": true,
-    "target": "esnext"
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": false,
+    "skipLibCheck": false,
+    "alwaysStrict": true
   },
   "exclude": [
     "inedex.ts",
@@ -23,5 +37,8 @@
     "babel.config.js",
     "metro.config.js",
     "jest.config.js"
+  ],
+  "include": [
+    "components"
   ]
 }

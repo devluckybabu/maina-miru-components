@@ -1,6 +1,6 @@
 {
   "name": "maina-miru-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.ts",
   "scripts": {
     "build": "cd types && del * && tsc"

@@ -23,4 +23,4 @@ const Rows = ({ children, border, style }) => {
             }]} children={children}/>);
 };
 exports.default = Rows;
-//# sourceMappingURL=Rows.js.map
+//# sourceMappingURL=Row.js.map

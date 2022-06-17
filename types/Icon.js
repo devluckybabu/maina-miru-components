@@ -33,4 +33,4 @@ exports.default = {
     Entypo: Entypo_1.default,
     Zocial: Zocial_1.default
 };
-//# sourceMappingURL=Icons.js.map
+//# sourceMappingURL=Icon.js.map

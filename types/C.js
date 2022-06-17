@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
 const react_native_1 = require("react-native");
 ;
-const Container = ({ loading, onLayout, footer, staticFooter, staticHeader, children, processing = false, header, indicatorColor, indicatorSize, loadingIndicator }) => {
+const C = ({ loading, onLayout, footer, staticFooter, staticHeader, children, processing = false, header, indicatorColor, indicatorSize, loadingIndicator }) => {
     if (loading) {
         return (<react_native_1.View onLayout={onLayout} style={{
                 flex: 1,
@@ -36,5 +36,5 @@ const Container = ({ loading, onLayout, footer, staticFooter, staticHeader, chil
       </react_native_1.Modal>
     </react_native_1.View>);
 };
-exports.default = Container;
-//# sourceMappingURL=Container.js.map
+exports.default = C;
+//# sourceMappingURL=C.js.map
