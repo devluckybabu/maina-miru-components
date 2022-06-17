@@ -1,0 +1,31 @@
+declare namespace _default {
+    export { MaterialCommunityIcons };
+    export { SimpleLineIcons };
+    export { MaterialIcons };
+    export { FontAwesome };
+    export { FontAwesome5 };
+    export { Foundation };
+    export { EvilIcons };
+    export { AntDesign };
+    export { Fontisto };
+    export { Ionicons };
+    export { Octicons };
+    export { Feather };
+    export { Entypo };
+    export { Zocial };
+}
+export default _default;
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import SimpleLineIcons from "react-native-vector-icons/SimpleLineIcons";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import FontAwesome from "react-native-vector-icons/FontAwesome";
+import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
+import Foundation from "react-native-vector-icons/Foundation";
+import EvilIcons from "react-native-vector-icons/EvilIcons";
+import AntDesign from "react-native-vector-icons/AntDesign";
+import Fontisto from "react-native-vector-icons/Fontisto";
+import Ionicons from "react-native-vector-icons/Ionicons";
+import Octicons from "react-native-vector-icons/Octicons";
+import Feather from "react-native-vector-icons/Feather";
+import Entypo from "react-native-vector-icons/Entypo";
+import Zocial from "react-native-vector-icons/Zocial";
